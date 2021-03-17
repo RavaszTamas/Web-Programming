@@ -1,0 +1,118 @@
+div#first{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 900px;
+
+    height: 200px;
+    background: red;
+    /*transform:rotateZ(-10deg);*/
+}
+
+
+div#second{
+    position: absolute;
+    width: 400px;
+    background: green;
+    height: 200px;
+    top: 300px;
+    left: 700px;
+  
+}
+
+div#third{
+    position: absolute;
+    width: 600px;
+    background: blue;
+    height: 200px;
+    top: 500px;
+    left: 500px;
+  
+}
+
+div#front1{
+    position: absolute;
+    width: 300px;
+    background: darkred;
+    height: 200px;
+    top: 100px;
+    left: 600px;
+    transform: translateY(222px);
+}
+div#front2{
+    position: absolute;
+    width: 300px;
+    background: darkgreen;
+    height: 200px;
+    top: 300px;
+    left: 400px;
+    transform: translateY(292px);
+  
+}
+
+div#front3{
+    position: absolute;
+    width: 300px;
+    background: darkblue;
+    height: 200px;
+    top: 500px;
+    left: 200px;
+    transform: translateY(362px);
+
+}
+
+div#top1{
+    position: absolute;
+    width: 400px;
+    background: black;
+    height: 300px;
+    top: -200px;
+    left: -200px;
+    transform: translateY(222px);
+}
+div#top2{
+    position: absolute;
+    width: 400px;
+    background: black;
+    height: 300px;
+    top: -1180px;
+    left: -700px;
+    transform: translateY(292px);
+  
+}
+
+div#top3{
+    position: absolute;
+    width: 400px;
+    background: black;
+    height: 300px;
+    top: 550px;
+    left: 294px;
+    transform: translateY(362px);
+}
+
+
+div#sideStairs{
+    position: absolute;
+    transform: skewY(-10.4deg);
+    top:200px;
+}
+div#frontStairs{
+    position: absolute;
+    transform: skewY(10deg);
+    top:-345px;
+}
+
+div#topStairs{
+    position: absolute;
+    transform: rotateX(77deg) rotateZ(40deg) rotateY(1deg);
+    left: 760px;
+    top: 300px;
+}
+
+div#stairs{
+    position: absolute;
+    /*transform:skewY(-20deg);*/
+    /*transform: rotate3d(1, 0, 0, 45deg) rotate3d(0, 0, 1, 45deg);*/
+    /*transform: rotateY(-45deg)*/
+}

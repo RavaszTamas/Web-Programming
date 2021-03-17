@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>Hello world!</title>
+</head>
+<!-- this is a comment! -->
+<style>
+table, th, td {
+	border: 1px solid black;
+}
+th,td {
+	text-align: center;
+}
+li {
+  vertical-align: center;
+}
+textarea{
+	font-family:"Times New Roman", Times, serif;
+	font-size: 36px;
+}
+</style>
+
+<body style="background-color:powderblue;">
+
+
+<h1> Hello</h1>
+<ul>
+<li><img src="cluj.jpg" alt="Cluj", style="width:200px;height:200px;"> Cluj</li>
+<li><img src="viena.jpg" alt="Vienna", style="width:200px;height:200px;"> Vienna</li>
+<li><img src="madrid.jpg" alt="Madrid", style="width:200px;height:200px;"> Madrid</li>
+</ul>
+<li>
+	<table>
+	  <tr>
+		<th>First name</th>
+		<th>Last name</th>
+	  </tr>
+	  <tr>
+		<td>John</td>
+		<td>Doe</td>
+	  </tr>
+	  <tr>
+		<td>Jane</td>
+		<td>Doe</td>
+	  </tr>
+	</table>
+</li>
+
+<a href="C:\Users\tamas\Documents\UBB\Web\Lab1\Empty.html">Empty page</a>
+<p>
+<a href="https://www.w3schools.com/html/html_links.asp">Link to the links course from the links tutorial</a>
+</p>
+
+<table style="width:50%">
+	<tr>
+		<th>Price</th>
+		<th>Person</th>
+		<th>Location</th>
+	</tr>
+	<tr>
+		<td>15$</td>
+		<td>Jeff</td>
+		<td>Cluj</td>
+	</tr>
+		<tr>
+		<td>25$</td>
+		<td>Peter</td>
+		<td>Vienna</td>
+	</tr>
+</table>
+
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Doe</td>
+  </tr>
+</table>
+
+<h3>Alert button</h3>
+<button type="button" onclick="alert('Hello world!')">Click the button!</button>
+
+<form>
+
+	<label for="fname">First name:</label><br>
+	<input type="text" id="fname" name="fname"><br>
+	<label for="lname">Last name:</label><br>
+	<input type="text" id="lname" name="lname"><br>
+	<input type="radio" id="male" name="gender" value="male">
+	<label for="male">Male</label><br>
+	<input type="radio" id="female" name="gender" value="female">
+	<label for="female">Female</labe><br>
+	<input type="radio" id="other" name="gender" value="other">
+	<label for="female">Other</labe><br>
+	<label for="password">Password:</label><br>
+	<input type="password" id="psswd" name="psswd"><br>
+	
+	
+	<label for="Cars">Choose a car:</label>
+	<select id="cars" name="cars">
+		<option value="volvo" style="color:green">Volvo</option>
+		<option value="volvo" style="color:red">Opel</option>
+		<option value="volvo" style="color:white;background-color:black">Dacia</option>
+		<option value="volvo" style="color:red">Audi</option>
+	</select><br>
+	<input type="submit" value="Submit">
+	<input type="reset">
+</form>
+<br>
+<label for="testTextArea">Text:</label>
+<textarea id="testTextArea" rows="5" cols="50" style="background-color:black;color:white">
+Default text which was thrown in here for no good reason.
+</textarea>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "FilterBooks";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>FilterBooks</title>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <script>
+        $(document).ready(function () {
+            $("#listButton").click(function () {
+                $.get("/Books/GetBooksFormGroup", { pages_count : $("#pages_count").val()},
+                    function (data, status) {
+                        $("#maindiv").html(data);
+                    }
+                    );
+            });
+        });
+    </script>
+</head>
+<body>
+    <h2>FilterBooks</h2>
+    Book pages: <input type="text" id="pages_count" /><br />
+    <input id="listButton" type="button" value="get books" />
+    List of books with pages:
+    <div id="maindiv" class="container"></div><br />
+
+</body>
+</html>
+

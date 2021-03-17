@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Apache local web server">
+    <serverData>
+      <paths name="Apache local web server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="projectForLab7" local="$PROJECT_DIR$" web="/projectForLab7" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

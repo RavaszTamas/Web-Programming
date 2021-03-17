@@ -1,0 +1,53 @@
+body {
+  background-color: lightblue;
+}
+
+#inner{
+  align-items: center;
+  margin: 10px;
+}
+
+div#tablediv{
+  border: 1px;
+}
+div#tablediv table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+div#tablediv th{
+  height: 100px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+div#tablediv td{
+  height: 50px;
+  background-color: green;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  transition: height 2s, font-size 2s;
+}
+
+
+div#tablediv table, th, td{
+  border: 1px solid black;
+}
+
+div#tablediv table:hover td{
+  height: 0px;
+  font-size: 0px;
+}
+
+/*
+div#tablediv table:hover td{
+  animation: mymove 5s
+}
+
+@keyframes mymove{
+  50% {height: 0px;}
+}
+*/
